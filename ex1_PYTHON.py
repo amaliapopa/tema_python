@@ -40,7 +40,7 @@ class Manager(Employee):
         self.department = f"{nume_echipa}_{department}"
         Manager.mgr_count += 1
 
-    # POPA - 4 litere -> x%3 = 1 -> afiseaza doar salariul angajatului
+    # POPA - 4 litere -> x % 3 = 1 -> afiseaza doar salariul angajatului
     def display_employee(self):
         print("Salary: ", self.salary)
 

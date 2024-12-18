@@ -32,7 +32,7 @@ plt.show()
 
 # Al treilea grafic cu ultimele 11 valori din fisierul CSV
 plt.figure(figsize=(10, 6))
-plt.plot(data.tail(Y).index, data.tail(Y)['Durata'], label='Durata', marker='s')
+plt.plot(data.tail(Y).index, data.tail(Y)['Durata'], label='Durata', marker='s', color = 'green')
 plt.plot(data.tail(Y).index, data.tail(Y)['Puls'], label='Puls', marker='d')
 plt.title(f'Ultimele {Y} Valori')
 plt.xlabel('Index')
